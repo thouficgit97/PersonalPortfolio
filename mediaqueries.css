@@ -1,0 +1,22 @@
+@media screen and (max-width:1000px) {
+    .nav-links a{
+        display: none;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+}
+@media screen and (max-width:931px) {
+    .image-for-mob{
+        display: block;
+    }
+    .image{
+        display: none;
+    }
+    #header{
+        flex-direction: column;
+    }
+    #header p{
+        text-align: justify;
+    }
+}
