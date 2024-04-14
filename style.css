@@ -21,6 +21,9 @@ body{
     padding:10px;
     box-shadow:2px 1px 19px 2px rgb(9, 9, 9); 
 }
+#navbar h1{
+    margin-left:25px;
+}
 .nav-links{
     display: flex;
     margin-right: 50px;
@@ -68,7 +71,7 @@ body{
 }
 .about-me p{
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
     margin-left:5px;
     max-width: 700px;
     
@@ -111,7 +114,6 @@ body{
     margin-top:170px;
 }
 .image-for-mob{
-    
     display: none;
 }
 .socialmedia{
@@ -126,11 +128,8 @@ body{
     color:black;
 }
 .socialmedia a:hover{
-    color: white;
-    background-color: black;
-    padding: 2px;
-    border:1px solid black;
-    border-radius: 5px;
+    color:rgb(8, 8, 8);
+    font-size: 52px;
      transition: .2s;
 }
 /* Projects */
@@ -161,9 +160,10 @@ body{
     text-align: center;
 }
 .projects p{
-    margin-top: 40px;
+    margin-top: 20px;
+    font-size:20px;
     color:black;
-    text-align: justify;
+    text-align: center;
 }
 .projects{
     background-color:  rgba(0, 204, 255, 0.791);
@@ -171,7 +171,6 @@ body{
     border-radius: 5px;
     margin:10px;
     font-size:25px;
-    /* height:400px; */
     width:400px;
     padding: 15px;
     border:1px solid grey;
@@ -179,12 +178,9 @@ body{
 
 .projects:hover{
     transform: scale(1.05);
+    transition: .2s ease-in-out;
 }
 .code{
-    /* margin-left:120px; */
-    /* padding: 55px; */
-    /* display: flex;
-    justify-content: center; */
     color:rgb(0, 0, 0);
 }
 .code-site{
@@ -219,3 +215,18 @@ body{
     height: 100px;
     width:100px;
 }
+/* #mode,#side-nav-mode{
+   border-radius:50%;
+   border:none;
+   background-color: transparent;
+   width:25px;
+   font-size: 25px;
+   padding: 5px;
+   cursor:pointer;
+}
+#side-nav-mode{
+    display: none;
+}
+#mode:hover,#side-nav-mode:hover{
+    color:white;
+} */
