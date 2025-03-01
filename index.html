@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="faviconT.png">
+    <title>Thoufic Portfolio</title>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav id="navbar">
+      <h1>THOUFIC YOUSUF</h1>
+      <div class="nav-links">
+       <!-- <button id="mode"><i class="fa-regular fa-moon"></i></button> -->
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Skills">Skills</a>
+        <a
+          href="https://drive.google.com/file/d/1QvA0SNcTaYFG7o5TZqZdJuskx2bPmmjX/view?usp=sharing"
+          target="_blank"
+          >Resume</a
+        >
+        <a href="mailto:thouficyousuf0987@gmail.com">Contact</a>
+      </div>
+      <!-- bar icon -->
+      <div class="navbar-toggle" onclick="showNavbar()">
+       <!-- <button id="side-nav-mode" ><i class="fa-regular fa-moon"></i></button> -->
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- side nav bar -->
+    <div id="side-navbar">
+      <p style="text-align: right" onclick="hideNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+      <div class="side-nav-links">
+        <p class="side-nav-link" onclick="hidesideNav()"><a href="#About">About</a></p>
+        <p class="side-nav-link" onclick="hidesideNav()"><a href="#Skills">Skills</a></p>
+        <p class="side-nav-link" onclick="hidesideNav()"><a href="#Projects">Projects</a></p>
+        <p class="side-nav-link" onclick="hidesideNav()">
+          <a
+            href="https://drive.google.com/file/d/1QvA0SNcTaYFG7o5TZqZdJuskx2bPmmjX/view?usp=sharing" target="_blank"
+            >Resume</a
+          >
+        </p>
+        <p class="side-nav-link" onclick="hidesideNav()">
+          <a href="mailto:thouficyousuf0987@gmail.com">Contact</a>
+        </p>
+      </div>
+    </div>
+    <!-- header -->
+    <div onclick="hidesideNav()">
+    <header id="header">
+      <div class="image-for-mob">
+        <img src="Thoufic(placement photo).JPG" alt="Owner" />
+      </div>
+      <div class="about-me">
+        <h1>👋 I'm MOHAMED THOUFIC YOUSUF</h1>
+        <p>
+          An aspiring software engineer on a journey to turn my passion for
+          technology into impactful solutions. While I'm relatively new to the
+          field, I've laid down my foundational skills in HTML, CSS, and
+          JavaScript, eager to dive deeper into the world of software
+          engineering.
+        </p>
+      </div>
+      <!-- image -->
+      <div class="image">
+        <img src="Thoufic(placement photo).JPG" alt="" />
+      </div>
+    </header>
+    <section>
+      <div class="socialmedia">
+        <a href="https://github.com/thouficgit97" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/thouficyousuf" target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section>
+      <div id="Projects">
+        <h1 id="projects-heading">PROJECTS</h1>
+        <div id="project-container">
+          <div class="projects">
+            <h3>Railway Reservation System Using C++</h3>
+            <p>
+              Developed a Railway Reservation System that allows users
+              to book, cancel, and print tickets as well as view 
+              available tickets for train journeys. 
+              This system will handle reservations and 
+              cancellations.
+            </p><br/>
+            <div class="code-site">
+              <a
+                class="code"
+                href="https://github.com/thouficgit97/Railway_Reservation"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+            </div>
+          </div>
+          <div class="projects">
+            <h3>Ecommerce website</h3>
+            <p>
+              Designed and developed a user-friendly eCommerce website frontend
+              using HTML, CSS, and JavaScript. Implemented responsive design
+              techniques for optimal viewing across devices, enhancing
+              accessibility.
+            </p>
+            <br />
+            <div class="code-site">
+              <a
+                class="code"
+                href="https://github.com/thouficgit97/Ecommerce"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+              <a
+                class="link-icon"
+                href="https://thoufic-ecommerce-website.vercel.app/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="projects">
+            <h3>Hangman Game</h3>
+            <p>
+              Developed a responsive Hangman game with HTML, CSS, and
+              JavaScript, ensuring smooth gameplay across devices and optimized
+              for both desktop and mobile platforms.
+            </p>
+            <br />
+            <div class="code-site">
+              <a
+                class="code"
+                href="https://github.com/thouficgit97/Hangman"
+                target="_blank"
+                ><i class="fa-solid fa-code"></i
+              ></a>
+              <a
+                class="link-icon"
+                href="https://thoufic-hangman-game.vercel.app/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+          <div class="projects">
+            <h3>To-Do List</h3>
+            <p>
+              Developed a responsive to-do list app with local storage using
+              HTML, CSS, and JavaScript, prioritizing intuitive UI design for
+              efficient task management across devices.
+            </p>
+            <br />
+            <div class="code-site">
+              <a
+              class="code"
+              href="https://github.com/thouficgit97/ToDo-List"
+              target="_blank"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+            <a
+              class="link-icon"
+              href="https://thouficyousuf-to-do-list.vercel.app/"
+              target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+            </div>
+          </div>
+          <div class="projects">
+            <h3>Bus Reservation System</h3>
+            <p>
+              Developed a Java application that uses MySQL for
+              data storage and JDBC for database connectivity,
+              enabling users to manage bus reservations and
+              schedules effectively.
+            </p>
+            <br />
+            <div class="code-site">
+              <a
+              class="code"
+              href="https://github.com/thouficgit97/BusReservationSystem/tree/master/out/production/JDBC_Learnings"
+              target="_blank"
+              ><i class="fa-solid fa-code"></i
+            ></a>
+            </div>
+          </div>
+    </section>
+    <!-- Skills -->
+    <section>
+      <div id="Skills">
+        <h1 id="skills-heading">SKILLS</h1>
+        <div class="skillset">
+          <img src="HTML_PNG.png" alt="" class="skills" />
+          <img src="CSS_PNG.png" alt="" class="skills" />
+          <img src="JS_PNG.png" alt="" class="skills" />
+          <img src="CPP_PNG.png" alt="" class="skills" />
+          <img src="PYTHON_PNG.png" alt="" class="skills" />
+          <img src="SQL_PNG.png" alt="" class="skills" />
+        </div>
+      </div>
+    </section>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

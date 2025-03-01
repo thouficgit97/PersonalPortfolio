@@ -1,0 +1,37 @@
+@media screen and (max-width:1100px) {
+    
+    .nav-links a{
+        display: none;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    #mode{
+        display: none;
+    }
+    #side-nav-mode{
+        display: block;
+    }
+}
+@media screen and (max-width:931px) {
+    .image-for-mob{
+        display: block;
+    }
+    .image{
+        display: none;
+    }
+    #header{
+        flex-direction: column;
+    }
+    #header p{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .projects{
+        width:250px;
+        max-width:300px;
+    }
+    
+}
